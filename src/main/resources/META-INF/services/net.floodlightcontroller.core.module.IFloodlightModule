@@ -31,7 +31,6 @@ net.floodlightcontroller.wireless.WirelessHandover
 net.floodlightcontroller.configuration.ConfigurationManager
 net.floodlightcontroller.configuration.SwitchConfigurator
 net.floodlightcontroller.wanswitch.WANSwitchManager
-net.floodlightcontroller.oscars.OscarsCircuitHandler
 org.sdnplatform.sync.internal.SyncManager
 org.sdnplatform.sync.internal.SyncTorture
 net.floodlightcontroller.devicemanager.internal.DefaultEntityClassifier
