@@ -1,0 +1,18 @@
+<configuration scan="true">
+    <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+        <encoder>
+            <pattern>%level [%logger:%thread] %msg%n</pattern>
+        </encoder>
+    </appender>
+    <root level="INFO">
+        <appender-ref ref="STDOUT" />
+    </root>
+    <logger name="org" level="WARN"/>
+    <logger name="LogService" level="WARN"/> <!-- Restlet access logging -->
+    <logger name="net.floodlightcontroller" level="INFO"/>
+    <!-- <logger name="net.floodlightcontroller.logging" level="WARN"/> -->
+    <logger name="org.sdnplatform" level="INFO"/>
+    <!-- <logger name="net.floodlightcontroller.arp" level="DEBUG"/> -->
+    <!-- <logger name="net.floodlightcontroller.wanswitch" level="DEBUG"/> -->
+    <logger name="net.floodlightcontroller.forwarding" level="DEBUG"/>
+</configuration>
