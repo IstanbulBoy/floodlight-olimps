@@ -1,5 +1,6 @@
 .settings
 target
+bin
 db
 ssh_host_dsa_key.pub
 
