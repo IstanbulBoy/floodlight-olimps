@@ -27,7 +27,6 @@ net.floodlightcontroller.forwarding.OlimpsForwarding
 net.floodlightcontroller.cli.Cli
 net.floodlightcontroller.flowcache.FlowCache
 net.floodlightcontroller.appaware.AppAware
-net.floodlightcontroller.wireless.WirelessHandover
 net.floodlightcontroller.configuration.ConfigurationManager
 net.floodlightcontroller.configuration.SwitchConfigurator
 net.floodlightcontroller.wanswitch.WANSwitchManager

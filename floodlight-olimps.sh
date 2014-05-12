@@ -4,6 +4,7 @@
 FL_HOME=`dirname $0`
 FL_JAR="${FL_HOME}/target/floodlight-olimps.jar"
 FL_LOGBACK="${FL_HOME}/logback.xml"
+FL_LOGFILE="${FL_HOME}/floodlight-olimps.log"
 
 # Set JVM options
 JVM_OPTS=""
@@ -33,4 +34,4 @@ JVM_OPTS="$JVM_OPTS -Dpython.security.respectJavaAccessibility=false"
 EOF_LOGBACK
 
 echo "Starting floodlight server ..."
-java ${JVM_OPTS} -Dlogback.configurationFile=${FL_LOGBACK} -jar ${FL_JAR} 2>&1 |tee -a floodlight.log
+java ${JVM_OPTS} -Dlogback.configurationFile=${FL_LOGBACK} -jar ${FL_JAR} 2>&1 |tee -a ${FL_LOGFILE}
